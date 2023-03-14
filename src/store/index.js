@@ -6,10 +6,13 @@ import {
     formReducer,changeName,changeCost
 } from './slices/formSlice';
 
+import { bikeFormReducer,changeBikeName,changeBikeCost } from "./slices/formBikeSlice";
+
 const store = configureStore({
     reducer:{
         cars:carsReducer,
         form:formReducer,
+        bikeForm:bikeFormReducer
     }
 });
 
@@ -19,5 +22,7 @@ export {
     changeCost,
     addCar,
     removeCar,
-    changeSearchTerm
+    changeSearchTerm,
+    changeBikeName,
+    changeBikeCost
 }

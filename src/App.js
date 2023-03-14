@@ -2,6 +2,8 @@ import CarForm from "./components/CarForm";
 import CarList from "./components/CarList";
 import CarSearch from "./components/CarSearch";
 import CarValue from "./components/CarValue";
+import BikeForm from "./components/BikeForm";
+import BikeList  from "./components/BikeList";
 
 
 function App(){
@@ -11,6 +13,8 @@ function App(){
             <CarSearch/>
             <CarList/> 
             <CarValue/>
+            <BikeForm/>
+            <BikeList/>
         </div>
        
     )
